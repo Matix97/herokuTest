@@ -17,4 +17,5 @@ public class HelloController {
         return "hello";
     }
     //w spring mamy ViewResolver i zwróci widok, który jest w odpowiendim miejsu
+
 }
