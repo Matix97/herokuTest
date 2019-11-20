@@ -10,6 +10,6 @@ public class TestRestController
     @RequestMapping("/getString")
     public String getString()
     {
-        return JSONObject.quote("Hello World");
+        return JSONObject.quote("{\"hi\":\"Hello World\"}");
     }
 }
